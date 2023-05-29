@@ -1,0 +1,40 @@
+.homepage-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    color: #000000;
+}
+
+.categories {
+    display: flex;
+    gap: 190px;
+    margin-top: 60px;
+}
+
+.category-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.category-show {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.category-image {
+    width: 214px;
+    height: 214px;
+}

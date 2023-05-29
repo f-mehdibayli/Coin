@@ -1,0 +1,113 @@
+.edit-page {
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.edit-page>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edit-page label {
+    display: block;
+    margin-bottom: 0, 5rem;
+}
+
+.edit-page p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 109%;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.edit-input {
+    width: 374px;
+    height: 48px;
+    border: 1px solid #000000;
+    padding-inline: 16px;
+    padding-block: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+}
+
+.edit-textarea {
+    display: block;
+    margin: 0;
+    height: 136px;
+    resize: none;
+}
+
+.edit-select{
+    padding-block: 0;
+}
+
+.small-input{
+    width: 260px;
+    margin-right: 30px;
+}
+
+.small-select{
+    width: 84px;
+    padding-block: 0;
+}
+
+.edit-actions {
+    margin-top: auto;
+    margin-inline: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.edit-actions button {
+    width: 120px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
+
+.editBtn-save {
+    background: #833AE0;
+    color: #FFFFFF;
+}
+
+.editBtn-save:is(:hover, :focus){
+    outline-offset: 3px;
+}
+
+.editBtn-cancel {
+    background: #E1E1E1;
+    color: #000000;
+}
+
+.upload-div1{
+    margin-bottom: 36px;
+}
+
+.upload-div2{
+    margin-bottom: 45px;
+}
+
+.ant-upload-picture-circle-wrapper {
+    width: auto !important;
+}
+
+.ant-upload-picture-circle-wrapper > div {
+    margin: 0 !important;
+}
+
+.upload-btn-label {
+    font-weight: 300;
+    text-decoration: underline;
+    margin-left: 30px;
+}

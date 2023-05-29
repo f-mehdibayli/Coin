@@ -1,0 +1,111 @@
+.home-label {
+    display: block;
+    margin-top: 25px;
+}
+
+.search-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 109%;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.search-input {
+    width: 374px;
+    height: 48px;
+    border: 1px solid #000000;
+    margin-right: 30px;
+    padding-inline: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    color: #000000;
+}
+
+.search-btn {
+    width: 120px;
+    height: 48px;
+    background: #833AE0;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.toggle-advanced-filter{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.toggle-advanced-filter span{
+    margin-right: 10px;
+}
+.advanced-filter {
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+.advanced-label-box:not(:last-child){
+    margin-bottom: 20px;
+}
+.filter-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 109%;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.filter-select {
+    width: 374px;
+    height: 48px;
+    border: 1px solid #000000;
+    padding-inline: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    color: #000000;
+}
+.filter-select option {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    color: #000000;
+}  
+.filter-input{
+    width: 155px;
+    height: 48px;
+    border: 1px solid #000000;
+    padding-inline: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    color: #000000;
+}
+.filter-input:first-child{
+    margin-right: 16psx;
+} 
+.advanced-label-box span{
+    margin-right: 6px;
+}
+.advanced-label-box span:last-of-type{
+    margin-left: 16px;
+}
+

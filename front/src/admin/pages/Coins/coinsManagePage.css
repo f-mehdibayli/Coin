@@ -1,0 +1,55 @@
+.admin-coins {
+    margin-top: 40px;
+}
+
+.change-box {
+    display: flex;
+    gap: 30px;
+}
+
+.change-box div {
+    width: 120px;
+    height: 48px;
+    background: #E5E5E5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    padding-block: 16px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.admin-coins-add {
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+}
+
+.admin-coins-add div {
+    width: 120px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.admin-coins-add p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+    cursor: pointer;
+}

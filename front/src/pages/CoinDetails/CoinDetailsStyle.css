@@ -1,0 +1,104 @@
+.coin-details {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-details-image {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.coin-details-image div {
+    width: 300px;
+    height: 300px;
+}
+
+.coin-details-image div img {
+    width: 100%;
+}
+
+.coin-description {
+    display: flex;
+    flex-direction: column;
+    width: 452px;
+    height: 624px;
+    background: rgba(196, 196, 196, 0.5);
+    padding: 20px 43px;
+}
+
+.coin-description h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.data-table {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 105.2%;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.data-table div:first-child {
+    flex: 1;
+}
+
+.data-table div:last-child {
+    flex: 1;
+}
+
+.data-table div div {
+    height: 20px;
+    padding: 6px;
+}
+
+.data-table div div:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.9);
+}
+.data-label div{
+    border-right: 0.5px solid #B1ABAB;
+    border-bottom: 0.5px solid #B1ABAB;
+}
+.data-label div:last-child{
+    border-bottom: none;
+}
+.data-value div{
+    border-bottom: 0.5px solid #B1ABAB;
+}
+.data-value div:last-child{
+    border-bottom: none;
+}
+
+.backPage {
+    margin-top: auto ;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.coin-desc-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    color: #000000;
+}
+.coin-desc-text:not(:last-child){
+    margin-bottom: 20px;
+}
