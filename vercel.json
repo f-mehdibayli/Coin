@@ -20,7 +20,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "front/build/$1"
+        "dest": "front/"
       }
     ]
   }
