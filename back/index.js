@@ -1,24 +1,39 @@
+require('dotenv').config();
+
 const express = require('express')
 const cors = require('cors')
 const app = express()
-app.use(express.json())
+// app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
-const PORT = 3001
-const mysql = require('mysql2')
+const PORT = process.env.PORT || 3001;
+const mysql = require('mysql')
+
+const bodyParser = require('body-parser');
 
 
+app.use(cors({ origin: "*" }));
+app.use(bodyParser.json());
 
 const connection = mysql.createConnection({
-    host: 'bwfywzyijnwwzfixdql5-mysql.services.clever-cloud.com',
-    user: 'u6dnyxsfnpwzcotv',
-    password: 'vOQ6ITLRCVhlZnfMhEIU',
-    database: 'bwfywzyijnwwzfixdql5'
-})
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE
+  });
+
+
+// const connection = mysql.createConnection({
+//     host: 'bwfywzyijnwwzfixdql5-mysql.services.clever-cloud.com',
+//     user: 'u6dnyxsfnpwzcotv',
+//     password: 'vOQ6ITLRCVhlZnfMhEIU',
+//     database: 'bwfywzyijnwwzfixdql5'
+// })
 
 connection.connect((err, data) => {
     if (!err) {
-        console.log('MySQL2 connected successfully!')
+        console.log('MySQL connected successfully!')
     } else {
         console.log("Error data: ", err)
     }
