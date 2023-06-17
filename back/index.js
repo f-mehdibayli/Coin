@@ -35,7 +35,7 @@ connection.connect((err, data) => {
     if (!err) {
         console.log('MySQL connected successfully!')
     } else {
-        console.log("Error data: ", err)
+        console.log("MySQL connected Error: " + err.stack)
     }
 })
 
