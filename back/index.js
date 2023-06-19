@@ -170,7 +170,7 @@ app.get('/composition', (req, res) => {
     })
 })
 
-app.get('/qualities', (req, res) => {
+app.get('/qualitaies', (req, res) => {
     connection.query(`SELECT DISTINCT quality FROM coin_details;`, (err, data) => {
         if (!err) {
             res.json(data)
