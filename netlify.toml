@@ -1,0 +1,16 @@
+[dev]
+command = "cd back && npm install && npm run dev"
+functions = "front/build/functions"
+
+[build]
+publish = "front/build"
+command = "cd front && npm install && npm run build"
+
+[build.environment]
+NODE_ENV = "production"
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
