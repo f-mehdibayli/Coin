@@ -4,12 +4,13 @@ functions = "front/build/functions"
 
 [build]
 publish = "front/build"
-command = "CI=false && npm install && npm run build"
+command = "cd front && npm install && npm run build"
 
 [build.environment]
 NODE_ENV = "production"
 
+
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
