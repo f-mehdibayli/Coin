@@ -38,7 +38,9 @@ const SearchComponent = ({ submitHandler, searchListData }) => {
         getComposition().then(data => setComposition(data))
         getQualities().then(data => setQuailties(data))
 
-    }, [])
+    }, [searchListData]);
+
+    console.log("searchListData: " +searchListData)
 
     const onChangeForm = (e) => {
         const { name, value } = e.target
